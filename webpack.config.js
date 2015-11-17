@@ -9,11 +9,19 @@ var APP_PATH = path.resolve(ROOT_PATH, 'app');
 
 var common = {
     entry: APP_PATH,
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    },
     module: {
         loaders: [
             {
                 test: /\.css$/,
                 loaders: ['style', 'css'],
+                include: APP_PATH
+            },
+            {
+                test: /\.jsx?$/,
+                loaders: ['babel'],
                 include: APP_PATH
             }
         ]
