@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tobi411/node-todo/issues"
   },
-  "homepage": "https://github.com/tobi411/node-todo#readme"
+  "homepage": "https://github.com/tobi411/node-todo#readme",
+  "devDependencies": {
+    "webpack": "^1.12.6"
+  }
 }
