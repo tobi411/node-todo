@@ -1,0 +1,24 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "A todo list app developed using Node.js and React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tobi411/node-todo.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "webpack"
+  ],
+  "author": "Tobi Kehinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobi411/node-todo/issues"
+  },
+  "homepage": "https://github.com/tobi411/node-todo#readme"
+}
